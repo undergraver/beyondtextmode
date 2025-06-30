@@ -61,8 +61,8 @@ For this please check each directory for details about different ways of handlin
 * 02_old_days - more complex flow on an old operating system (MSDOS) with little to no restrictions
 * 03_ui - control flow in a simple graphical Windows app (WINAPI based) and also an example of a cross platform framework (wxWidgets)
 * 04_sound - since we're here to show more than text (Images and **words**) we will show a simple sound player structure
-* 05_network - servers (like a webserver for example; think Apache, nginx) has a different flow (mainly controlled by select)
-* 06_network_with_framework - use ACE_Reactor (from ACE library) to see how the same thing done with select can be made in a portable and easier to understand manner
+* 05_network - servers (like a webserver for example; think Apache, nginx) has a different flow (mainly controlled by select and ACE framework)
+* 06_full_app - An example of application (self study) with mentions about the technologies used and documentation
 
 
 This content was conceived while listening to these bands:
