@@ -52,6 +52,19 @@ Manager:/usr # echo $?
 Manager:/usr #
 ```
 
+The main point where the the decisions are made is the thing usually called "the message loop".
+On modern operating system and within frameworks this might not be that obvious but nevertheless we need to understand it.
+
+For this please check each directory for details about different ways of handling the flow control of the program:
+
+* 01_simple - normal flow of the code of a text mode executable (like `ls`)
+* 02_old_days - more complex flow on an old operating system (MSDOS) with little to no restrictions
+* 03_ui - control flow in a simple graphical Windows app (WINAPI based) and also an example of a cross platform framework (wxWidgets)
+* 04_sound - since we're here to show more than text (Images and **words**) we will show a simple sound player structure
+* 05_network - servers (like a webserver for example; think Apache, nginx) has a different flow (mainly controlled by select)
+* 05_network_with_framework - use ACE_Reactor (from ACE library) to see how the same thing done with select can be made in a portable and easier to understand manner
+
+
 This content was conceived while listening to these bands:
 
 * Dream Theater https://www.youtube.com/watch?v=a9j-v9EbBBM
